@@ -70,9 +70,9 @@ function reiniciarJogo() {
 //ANOTAÇÕES PARA COMANDOS COM O GIT 
 //
 //git status: verifica quais arquivos foram modificados
-//git add: adiciona as mudanças 
-//git commit: registra as mudanças no repositório local
-//git push: leva as mudanças do repositório local para o repositório remoto
+//git add: adiciona as mudanças (o "git add ." adiciona todas as mudanças feitas no projeto)
+//git commit: registra as mudanças no repositório local (git commit -m "EXPLICAÇÃO")
+//git push: leva as mudanças do repositório local para o repositório remoto (git push origin main)
 //git pull: baixa as mudanças do repositório remoto para o repositório local
 //git log: mostra o histórico de mudanças do projeto
 
