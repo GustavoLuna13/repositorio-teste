@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 5000;
+let numeroLimite = 1000;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 5000');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 1000');
 }
 
 exibirMensagemInicial();
@@ -67,14 +67,17 @@ function reiniciarJogo() {
 
 //teste
 
-//ANOTAÇÕES PARA COMANDOS COM O GIT 
+//ANOTAÇÕES PARA COMANDOS COM O GIT NO TERMINAL
 //
 //git status: verifica quais arquivos foram modificados
 //git add: adiciona as mudanças (o "git add ." adiciona todas as mudanças feitas no projeto)
 //git commit: registra as mudanças no repositório local (git commit -m "EXPLICAÇÃO")
 //git push: leva as mudanças do repositório local para o repositório remoto (git push origin main)
-//git pull: baixa as mudanças do repositório remoto para o repositório local
+//git pull: baixa as mudanças do repositório remoto para o repositório local (git pull origin main)
 //git log: mostra o histórico de mudanças do projeto
+//
+//OBS: é possível realizar um commit no vs code através do menu na lateral esquerda (source control). O passo a passo é o mesmo do terminal (adicionar os arquivos,
+//realizar o commit com um comentário e levar as mudanças para o repositório remoto) só que de maneira mais simples
 
 
 
