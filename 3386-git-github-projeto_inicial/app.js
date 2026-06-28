@@ -65,24 +65,36 @@ function reiniciarJogo() {
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
 
-//teste
-
-//ANOTAÇÕES PARA COMANDOS COM O GIT NO TERMINAL
+//GUIA PARA O USO GIT E GITHUB
 //
-//git status: verifica quais arquivos foram modificados
-//git add: adiciona as mudanças (o "git add ." adiciona todas as mudanças feitas no projeto)
-//git commit: registra as mudanças no repositório local (git commit -m "EXPLICAÇÃO")
-//git push: leva as mudanças do repositório local para o repositório remoto (git push origin main)
-//git pull: baixa as mudanças do repositório remoto para o repositório local (git pull origin main)
-//git log: mostra o histórico de mudanças do projeto
+//1. DIFERENÇAS
+//O Git é uma ferramenta para a criação de repositórios locais, ou seja, o projeto e suas alterações ficam salvos apenas localmente 
+//no computador do programador. Já o GitHub cria um repositório remoto, ou seja, o repositório fica salvo na nuvem e qualquer pessoa
+//tem acesso (caso você configure para público no GitHub)
+//
+//2.COMANDOS COM O GIT NO TERMINAL
+//
+//git status: verifica quais arquivos foram modificados;
+//git add: adiciona as mudanças (o "git add ." adiciona todas as mudanças feitas no projeto);
+//git commit: registra as mudanças no repositório local (git commit -m "EXPLICAÇÃO");
+//git commit --amend -m "EXPLICAÇÃO": altera o último commit, mudando a mensagem e/ou adicionando alterações extras pequenas;
+//git push: leva as mudanças do repositório local para o repositório remoto (git push origin main);
+//git pull: baixa as mudanças do repositório remoto para o repositório local (git pull origin main);
+//git log: mostra o histórico de mudanças do projeto;
 //git revert: reverte as mudanças feitas de um commit, esse comando cria um novo commit com as mudanças revertidas, mas o commit 
-//escolhido não é deletado nem reescrito (git revert ID DO COMMIT)
-//git reset: deleta o úlitmo commit do repositório local no histórico (git reset --hard ID DO COMMIT ANTERIOR DO QUAL VOCÊ QUER APAGAR),
-// OBS: o comando git reset é recomendado apenas para apagar commits locais, o ideal é não apagar commits no repositório remoto
+//escolhido não é deletado nem reescrito (git revert ID DO COMMIT);
+//git reset: deleta o úlitmo commit do repositório local no histórico (git reset --hard ID DO COMMIT ANTERIOR DO QUAL VOCÊ QUER APAGAR).
+//OBS: o comando git reset é recomendado apenas para apagar commits locais, o ideal é não apagar commits no repositório remoto.
 //
 //OBS: é possível realizar um commit no vs code através do menu na lateral esquerda (source control). O passo a passo é o mesmo do terminal (adicionar os arquivos,
 //realizar o commit com um comentário e levar as mudanças para o repositório remoto) só que de maneira mais simples
-
+//
+//3.BOAS PRÁTICAS: USO DE COMMITS
+//
+//O uso de commits deve ser feita de forma prudente. Não é recomendável atualizar constantemente as commits, já que isso pode causar
+//problemas de entendimento das atualizações feitas ao longo do projeto, a exemplo de criações/alterações constantes de commits e 
+//mudanças constantes no histórico. Além disso, não se deve alterar o histórico de commits no repositório remoto, já que todos os
+//colaboradores do projeto tem acesso a esse repositório em comum, o que pode causar problemas.
 
 
 
