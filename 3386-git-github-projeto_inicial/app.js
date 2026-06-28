@@ -68,11 +68,18 @@ function reiniciarJogo() {
 //GUIA PARA O USO GIT E GITHUB
 //
 //1. DIFERENÇAS
+///
 //O Git é uma ferramenta para a criação de repositórios locais, ou seja, o projeto e suas alterações ficam salvos apenas localmente 
 //no computador do programador. Já o GitHub cria um repositório remoto, ou seja, o repositório fica salvo na nuvem e qualquer pessoa
 //tem acesso (caso você configure para público no GitHub)
 //
-//2.COMANDOS COM O GIT NO TERMINAL
+//2. COMO USAR
+//
+//Primeiramente, é necessário instalar o Git no computador para que haja a interação e criação com o repositório local. Após a instalação, será necessário seguir o passo 
+//a passo do GitHub para colocar os arquivos do repositório local para o remoto através do Git. Para que haja a sincronização com os dois repositório, é preciso a criação de 
+//uma chave de acesso no Git e colocar essa chave no seu repositório remoto GitHub (pesquisar para mais detalhes).
+// 
+//3.COMANDOS COM O GIT NO TERMINAL
 //
 //git status: verifica quais arquivos foram modificados;
 //git add: adiciona as mudanças (o "git add ." adiciona todas as mudanças feitas no projeto);
@@ -89,12 +96,32 @@ function reiniciarJogo() {
 //OBS: é possível realizar um commit no vs code através do menu na lateral esquerda (source control). O passo a passo é o mesmo do terminal (adicionar os arquivos,
 //realizar o commit com um comentário e levar as mudanças para o repositório remoto) só que de maneira mais simples
 //
-//3.BOAS PRÁTICAS: USO DE COMMITS
+//4.BOAS PRÁTICAS: USO DE COMMITS
 //
 //O uso de commits deve ser feita de forma prudente. Não é recomendável atualizar constantemente as commits, já que isso pode causar
 //problemas de entendimento das atualizações feitas ao longo do projeto, a exemplo de criações/alterações constantes de commits e 
 //mudanças constantes no histórico. Além disso, não se deve alterar o histórico de commits no repositório remoto, já que todos os
 //colaboradores do projeto tem acesso a esse repositório em comum, o que pode causar problemas.
+//
+//5. ARQUIVOS IGNORADOS
+//
+//Caso você queira levar as mudanças para o repositório remoto desconsiderando arquivos desnecessários ou confidenciais, é possível criar um novo arquivo chamado ".gitignore".
+//Com ele, você escreve os arquivos ou pastas que você quer que o Git ingnore no processo do git push. Assim, os arquivos do repositório remoto serão atualizados,
+//desconsiderando os arquivos dentro do .gitignore
+//
+//6. README
+//
+//No GitHub, o README existe para explicar o que o repositório faz e como o usuário se situar nele. é possível criar esse arquivo tanto no GitHub, quanto no projeto do
+//repositório local. Ao criar no GitHub, o arquivo README.md aparece automaticamente no repositório remoto, e para colocar ele no seu repositório local, basta utilizar
+//o comando git pull. O README funciona de forma semelhante ao HTML  
+//
+//7. GIST
+//
+//Os repositórios são ferramentas os quais dão a possibilidade de compartilhar o projeto para alguém ou chamar alguém para colaborar no projeto. Contudo, há uma ferramenta do 
+//GitHub que dá a possibilidade de compartilhar apenas um trecho do código sem a necessidade de criar um repositório, que é o Gist. Para criar o Gist, basta ir na parte
+//superior do site onde há um "+" e apertar em "New gist". Coloque título, tipo de arquivo e o trecho do código, caso queira colocar mais de um tipo de arquivo, basta clicar
+//no botão em baixo da caixa onde há o código anterior.
+
 
 
 
