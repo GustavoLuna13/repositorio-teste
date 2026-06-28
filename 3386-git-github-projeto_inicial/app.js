@@ -65,6 +65,8 @@ function reiniciarJogo() {
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
 
+//teste
+
 //ANOTAÇÕES PARA COMANDOS COM O GIT NO TERMINAL
 //
 //git status: verifica quais arquivos foram modificados
@@ -73,10 +75,10 @@ function reiniciarJogo() {
 //git push: leva as mudanças do repositório local para o repositório remoto (git push origin main)
 //git pull: baixa as mudanças do repositório remoto para o repositório local (git pull origin main)
 //git log: mostra o histórico de mudanças do projeto
-//git revert: reverte as mudanças feitas de um determinado commit, o comando não deleta o commit ou reescreve por cima, mas sim cria um novo commit com as mudanças revertidas
-//revertidas (git revert ID DO COMMIT)
-//git reset: deleta o último commit realizado dentro do repositório local (git reset --hard ID DO COMMIT ANTERIOR DO QUAL VOCÊ QUER APAGAR, NÃO DO COMMMIT QUE VOCÊ QUER APAGAR) 
-//OBS: o comando para deletar é recomendado apenas para repositórios locais, caso o commit já tenha sido enviado para o repositório remoto o ideal seria não apagá-lo
+//git revert: reverte as mudanças feitas de um commit, esse comando cria um novo commit com as mudanças revertidas, mas o commit 
+//escolhido não é deletado nem reescrito (git revert ID DO COMMIT)
+//git reset: deleta o úlitmo commit do repositório local no histórico (git reset --hard ID DO COMMIT ANTERIOR DO QUAL VOCÊ QUER APAGAR),
+// OBS: o comando git reset é recomendado apenas para apagar commits locais, o ideal é não apagar commits no repositório remoto
 //
 //OBS: é possível realizar um commit no vs code através do menu na lateral esquerda (source control). O passo a passo é o mesmo do terminal (adicionar os arquivos,
 //realizar o commit com um comentário e levar as mudanças para o repositório remoto) só que de maneira mais simples
